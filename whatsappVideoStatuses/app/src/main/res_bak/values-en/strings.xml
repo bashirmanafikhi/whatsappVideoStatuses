@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arabic Video Statuses</string>
+    <string name="tab_text_1">Love</string>
+    <string name="tab_text_2">Sad</string>
+    <string name="tab_text_3">Comedy</string>
+    <string name="tab_text_4">Wisdom</string>
+    <string name="tab_text_5">Different</string>
+    <string name="action_settings">Control</string>
+    <string name="newWord">new</string>
+    <string name="NotProgrammedYet">Not programmed yet!</string>
+    <string name="InternetConnection">Connect to the internet first !</string>
+    <string name="Random">Random sort</string>
+    <string name="NewFirst">new first</string>
+    <string name="MostViews">most viewed</string>
+    <string name="about">about app</string>
+    <string name="aboutAppContent">"it is best app for arabic video statuses with video downloading and sharing possibility.. hope you will like it and share it with your friends and please give us five stars in the store :) "</string>
+    <string name="rate">rate</string>
+    <string name="share">share app</string>
+    <string name="facebook">facebook</string>
+    <string name="youtube">our youtube channel</string>
+    <string name="feedBack">privacy poicy</string>
+    <string name="privacyPolicy">contact us</string>
+    <string name="aboutProgrammer">about programmer</string>
+    <string name="aboutProgrammerContent">Programmed by: Bashir Manafikhi</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="tab_text_6">islamic</string>
+    <string name="tab_text_7">Home</string>
+    <string name="MainPageMainText">The family of Wathsapp video statusses wish you a Ramadan Kareem</string>
+    <string name="likedVideos_activity_title">videos  you liked</string>
+    <string name="MostLiked">"most liked "</string>
+    <string name="internet_notes_1">there is no internet connection</string>
+    <string name="internet_notes_2">thanks for using our app</string>
+    <string name="bestVideoAppInTheWorld">Best app for Arabic video statuses in the Arabic world</string>
+    <string name="AppName">Arabic Video Statuses</string>
+    <string name="videosSort">Video sort</string>
+    <string name="ProgrammerEmail">bashir.manafikhi@gmail.com</string>
+    <string name="videosYouLiked">Videos You Liked :)</string>
+    <string name="otherVideos">Other videos you\'ll like maybe</string>
+    <string name="videoAlreadyExist">The video is already exist</string>
+    <string name="startDownloading">Start downloading</string>
+    <string name="videoWillDownloadFirst">the video will be downloaded first, wait Please.. </string>
+
+
+
+    <string-array name="notes_array">
+        <item>your internet connection is too weak! wait please then refresh the page</item>
+        <item>Thanks for using our app, support us by sharing the app and giving us five stars in play store</item>
+        <item>you didn\'t like the app? write a comment for us in play store and I\'ll do what I can to let it more beautiful </item>
+        <item>Don\'t forget to smile :)</item>
+    </string-array>
+    <string name="doYouWantExit">"Do you really want to exit? "</string>
+    <string name="no_">No</string>
+    <string name="yes_">Yes</string>
+    <string name="videosCountInThisCategory">"Videos count in this category is "</string>
+    <string name="versionNameIs">Version name is</string>
+    <string name="EndOfCategory">The videos in this category are end.. Thank you</string>
+    <string name="didNotDownload">Sorry, download din not complete! be sure that you are connected to the internet</string>
+    <string name="refreshThePage">Refresh the page for apply</string>
+    <string name="retrievingData">Retrieving data from the sever.. please wait</string>
+    <string name="RetrievingDataFromLocal">Retrieving data from local database.. please wait</string>
+    <string name="downloadingData">Retrieving Data</string>
+    <string name="videosCount">Videos count:</string>
+    <string name="randomVideo">Random Video</string>
+    <string name="allVideos">All Videos</string>
+    <string name="favoriteVideos">Liked Videos</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="tab_text_8">Romantic</string>
+    <string name="tab_text_9">Written</string>
+    <string name="newVideos">New videos</string>
+    <string name="tab_text_10">Inspiration</string>
+    <string name="ClickAgainToExit">Please click BACK again to exit</string>
+    <string name="search_results">Search results</string>
+
+</resources>

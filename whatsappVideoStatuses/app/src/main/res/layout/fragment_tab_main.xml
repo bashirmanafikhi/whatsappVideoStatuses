@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor"
+    android:padding="15dp"
+    tools:context=".Fragments.TabMain">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/videosCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/videosCount"
+        android:textAlignment="center"
+        android:textSize="16dp" />
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/MainPageMainText"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:stretchColumns="0,1">
+
+            <Button
+                android:id="@+id/btnMahwousVideos"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/mahwous_videos_button"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginBottom="15dp"
+                android:textSize="14dp" />
+
+
+            <!--<Button
+                android:id="@+id/btnMahwousQuotes"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/mahwous_quotes_button"
+                android:textColor="@color/myGroup5"
+                android:layout_marginBottom="5dp"
+                android:textSize="14dp" />-->
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnRandom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/randomVideo"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/share"
+                android:textColor="@color/primaryTextColor"
+                android:layout_marginStart="10dp"
+                android:textSize="14dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnFacebook"
+                    android:text="&#xf09a;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnYoutube"
+                    android:text="&#xf167;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnTelegram"
+                    android:text="&#xf2c6;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnInstagram"
+                    android:text="&#xf16d;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnTwitter"
+                    android:text="&#xf099;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                    android:id="@+id/btnTiktok"
+                    android:text="&#xe07b;"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:textSize="16pt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+<!--                <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands-->
+<!--                    android:id="@+id/btnGooglePlay"-->
+<!--                    android:text="&#xf3ab;"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:clickable="true"-->
+<!--                    android:textSize="16pt"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content" />-->
+
+
+            </LinearLayout>
+
+
+
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rvApps"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+﻿@using WebApplication3.Models
+@model NotificationModel
+
+@{
+    ViewBag.Title = "New Notification";
+}
+<h2>إشعار جديد</h2>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post" action="@Url.Action("NewNotification", "Home")" role="form">
+
+                <div class="form-group">
+                    <label for="Password">كلمة المرور</label>
+                    <input type="password" class="form-control" name="Password" />
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Title">عنوان الإشعار</label>
+                    <input type="text" class="form-control" name="Title" />
+                    @Html.ValidationMessageFor(m => m.Title, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Body">محتوى الإشعار</label>
+                    <input type="text" class="form-control" name="Body" />
+                    @Html.ValidationMessageFor(m => m.Body, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Badge">بادج</label> <br />
+                    <input type="number" min="0" max="100" value="0" name="Badge" />
+                    @Html.ValidationMessageFor(m => m.Badge, "", new { @class = "text-danger" })
+                </div>
+
+
+
+
+                <button type="submit" class="btn btn-primary">
+                    إرسال
+                </button>
+
+
+            </form>
+        </div>
+    </div>
+</div>

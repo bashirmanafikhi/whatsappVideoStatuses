@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bashirmanafikhi.whatsappvideostatuses.Avtivities.MainActivity">
+
+    <item
+        android:id="@+id/likedVideos"
+        android:orderInCategory="100"
+        android:icon="@drawable/favorite_black"
+        android:title="@string/favoriteVideos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rateItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/star_border_black"
+        android:title="@string/rate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ShareItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/share_black"
+        android:title="@string/share"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/aboutProgrammerItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/help_outline_black"
+        android:title="@string/aboutProgrammer"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aboutItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/help_outline_black"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+
+    <!--<item
+        android:id="@+id/youtubeItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/video_library_black_24dp"
+        android:title="@string/youtube"
+        app:showAsAction="never" />-->
+    <!--<item
+        android:id="@+id/FacebookItem"
+        android:orderInCategory="100"
+        android:icon="@drawable/thumb_up_black"
+        android:title="@string/facebook"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/PrivacyPolicyItem"
+        android:orderInCategory="100"
+        android:title="@string/privacyPolicy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/FeedBackItem"
+        android:orderInCategory="100"
+        android:title="@string/feedBack"
+        app:showAsAction="never" />-->
+
+</menu>

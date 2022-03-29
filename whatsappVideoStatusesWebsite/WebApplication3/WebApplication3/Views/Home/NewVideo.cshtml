@@ -1,0 +1,72 @@
+﻿@using WebApplication3.Viewmodels
+@model MyVideoViewmodel
+
+@{
+    ViewBag.Title = "Add New Video";
+}
+    <h2>إضافة فيديو جديد</h2>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <form method="post" action="@Url.Action("NewVideo", "Home")" enctype="multipart/form-data" role="form">
+
+                <div class="form-group">
+                    <label for="Password">كلمة المرور</label>
+                    <input type="password" class="form-control" name="Password" />
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="VideoTitle">عنوان الفيديو</label>
+                    <input type="text" class="form-control" name="VideoTitle" />
+                    @Html.ValidationMessageFor(m => m.VideoTitle, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="Category">التصنيف</label>
+                    <select class="form-control" name="Category">
+                        <option value="">اختر تصنيف</option>
+                        <option value="IslamicVid">اسلامي</option>
+                        <option value="LoveVid">حب</option>
+                        <option value="ComedyVid">كوميدي</option>
+                        <option value="SadVid">حزين</option>
+                        <option value="WisdomVid">حكم</option>
+                        <option value="DifferentVid">مختلفة</option>
+                        <option value="RomanticVid">رومنسي</option>
+                        <option value="WrittenVid">كتابية</option>
+                        <option value="InspirationVid">خواطر</option>
+                    </select>
+                    @Html.ValidationMessageFor(m => m.Category, "", new { @class = "text-danger" })
+                </div>
+
+
+
+                <div class="form-group">
+                    <label for="VideoUrl">
+                        الفيديو
+                    </label>
+                    <input type="file" class="form-control-file" name="VideoUrl" accept="video/mp4" />
+                    @Html.ValidationMessageFor(m => m.VideoUrl, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group">
+                    <label for="ImageUrl">
+                        الصورة المصغرة
+                    </label>
+                    <input type="file" class="form-control-file" name="ImageUrl" accept="image/jpeg" />
+                    @Html.ValidationMessageFor(m => m.ImageUrl, "", new { @class = "text-danger" })
+                </div>
+
+
+
+
+                <button type="submit" class="btn btn-primary">
+                    إضافة
+                </button>
+
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+{
+  "project_info": {
+    "project_number": "1056809921916",
+    "firebase_url": "https://whatsappvideostatuses-7ac03.firebaseio.com",
+    "project_id": "whatsappvideostatuses-7ac03",
+    "storage_bucket": "whatsappvideostatuses-7ac03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056809921916:android:53f5ffbf966a6807",
+        "android_client_info": {
+          "package_name": "com.bashirmanafikhi.whatsappvideostatuses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056809921916-rvok3253pd5rrbrnt6ss0gkn4u46t08v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bashirmanafikhi.whatsappvideostatuses",
+            "certificate_hash": "4e45f9c83d933d70a9f608147c257b26203aaf96"
+          }
+        },
+        {
+          "client_id": "1056809921916-v39l04ehr5ue3biskmn80cikog5ap9i6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bashirmanafikhi.whatsappvideostatuses",
+            "certificate_hash": "17330db4eb47a8ad89545b854a356087486d064b"
+          }
+        },
+        {
+          "client_id": "1056809921916-klbl27rh0j4mtadu2eiq98vrj30p9i17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulSoqMI2ZJXneNyK4c9LSsCm4NO-h_aU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056809921916-klbl27rh0j4mtadu2eiq98vrj30p9i17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-1685177955120006~3053789974"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056809921916:android:923b7fc172e92301",
+        "android_client_info": {
+          "package_name": "com.bashirmanafikhi.whatsappvideostatusesconsole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056809921916-g06v2ihq3a0ktcln0dmrsreil93ue20v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bashirmanafikhi.whatsappvideostatusesconsole",
+            "certificate_hash": "4e45f9c83d933d70a9f608147c257b26203aaf96"
+          }
+        },
+        {
+          "client_id": "1056809921916-klbl27rh0j4mtadu2eiq98vrj30p9i17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulSoqMI2ZJXneNyK4c9LSsCm4NO-h_aU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056809921916-klbl27rh0j4mtadu2eiq98vrj30p9i17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

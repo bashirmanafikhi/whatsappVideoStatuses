@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حالات واتس أب فيديو</string>
+    <string name="tab_text_1">حب</string>
+    <string name="tab_text_2">حزن</string>
+    <string name="tab_text_3">كوميديا</string>
+    <string name="tab_text_5">منوعات</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="newWord">(جديد)</string>
+
+    <string name="NotProgrammedYet">هذا الأمر لم تتم برمجته بعد</string>
+    <string name="InternetConnection">لازم تتصل بالإنترنت أول..</string>
+
+
+    <string name="Random">ترتيب عشوائي</string>
+    <string name="NewFirst">الجديد أولاً</string>
+    <string name="MostViews">الأكثر مشاهدة</string>
+
+
+    <string name="about">عن التطبيق</string>
+    <string name="aboutAppContent">".أفضل تطبيق عربي لحالات الفيديو مع امكانية تحميل الفيديوهات ومشاركتها أرجو أن ننال إعجابكم.. إذا اعجبكم التطبيق نرجو مساعدتنا في نشره واعطائنا خمس نجوم في المتجر لأننا مازلنا في مرحلة تطوير البرنامج "</string>
+    <string name="rate">تقييم</string>
+    <string name="share">مشاركة التطبيق</string>
+    <string name="facebook">زيارة صفحة الفيس بوك</string>
+    <string name="youtube">زورو قناة اليوتيوب</string>
+    <string name="feedBack">سياسة الخصوصية</string>
+    <string name="privacyPolicy">راسلنا</string>
+
+    <string name="aboutProgrammer">عن المبرمج</string>
+    <string name="aboutProgrammerContent">"تمت برمجة هذا التطبيق بتوفيق من الله اولاً\nومن ثم  أنا ☺ بشير منافيخي "</string>
+    <string name="tab_text_6">إسلامي</string>
+    <string name="tab_text_7">الرئيسية</string>
+    <string name="favoriteVideos">فيديوهات أعجبتني</string>
+    <string name="likedVideos_activity_title">فيديوهات أعجبتك</string>
+    <string name="MostLiked">الأكثر إعجاباً</string>
+    <string name="internet_notes_1">لا يوجد اتصال بالأنترنت</string>
+    <string name="internet_notes_2">شكراً لاستخدامكن تطبيقنا</string>
+    <string name="bestVideoAppInTheWorld">أفضل تطبيق لحالات الفيديو   في العالم العربي</string>
+    <string name="AppName">حالات واتس اب فيديو</string>
+    <string name="videosSort">ترتيب الفيديوهات</string>
+    <string name="ProgrammerEmail">bashir.manafikhi@gmail.com</string>
+    <string name="videosYouLiked">فيديوهات أعجبتك :)</string>
+    <string name="otherVideos">فيديوهات أخرى في هذا التصنيف</string>
+    <string name="yes_">نعم</string>
+    <string name="no_">لا</string>
+    <string name="videosCountInThisCategory">عدد الفيديوهات في هذا التصنيف</string>
+    <string name="videoAlreadyExist">الفيديو موجود مسبقا</string>
+    <string name="startDownloading">بدء التحميل</string>
+    <string name="videoWillDownloadFirst">سيتم تحميل الفيديو أولاً, انتظر قليلاً</string>
+
+
+    <string-array name="notes_array">
+        <item>شكلو اتصالك بالنت ضعيف شوي.. استنا ثواني بس ورجاع حدث الصفحة</item>
+        <item>شكراً لاستخدامك تطبيقنا إذا عجبك التطبيق ادعمنا من خلال نشر التطبيق وتقييمنا في المتجر خمس نجوم</item>
+        <item>ماعجبك التطبيق؟ كتبلي رأيك بتعليق عالمتجر ورح اعمل جهدي لأخليه أحلى </item>
+        <item>لاتنسى تبتسم اليوم :)</item>
+    </string-array>
+
+    <string name="versionNameIs">رقم الإصدار</string>
+    <string name="EndOfCategory">انتهت الحالات في هذا القسم, سنضيف المزيد في أقرب وقت</string>
+    <string name="didNotDownload">عذراً, لم يتم التحميل.. تأكد أنك متصل بالأنترنت وأنه لديك مساحة كافية</string>
+    <string name="refreshThePage">حدث الصفحة لتطبيق التغييرات</string>
+    <string name="retrievingData">جاري تحميل البيانات انتظر قليلاً :)</string>
+    <string name="RetrievingDataFromLocal">جاري جلب البيانات انتظر قليلاً :)</string>
+    <string name="downloadingData">جاري تحميل البيانات</string>
+    <string name="videosCount">عدد الفيديوهات:</string>
+    <string name="randomVideo">فيديو عشوائي</string>
+    <string name="allVideos">جميع الفيديوهات</string>
+    <string name="tab_text_4">حكم</string>
+    <string name="close">اغلاق</string>
+    <string name="open">فتح</string>
+    <string name="tab_text_8">رومنسية</string>
+    <string name="tab_text_9">كتابية</string>
+    <string name="newVideos">الفيديوهات الجديدة</string>
+    <string name="title_activity_about_app">عن التطبيق</string>
+    <string name="tab_text_10">خواطر</string>
+    <string name="ClickAgainToExit">اضغط مرة أخرى للخروج</string>
+    <string name="search_results">نتائج البحث</string>
+    <string name="AreYouWantToWatchAd">يجب أن تشاهد إعلاناً من أجل تحميل مقطع الفيديو.. هل أنت موافق؟</string>
+    <string name="accept">أوافق</string>
+    <string name="decline">لا أوافق</string>
+    <string name="loseReward">عذراً يجب مشاهدة الإعلان للنهاية من أجل تحميل المقطع!</string>
+    <string name="mahwous_videos_button">فيديوهات مهووس</string>
+    <string name="mahwous_quotes_button">مسجاتي</string>
+    <string name="MainPageMainText">غرف دردشة وتعارف  والمزيد من الفيديوهات والصور والرسائل والكثير الكثير من الحالات ستجدونها في تطبيقنا الجديد ♥ حملوه من خلال الضغط على هذا الزر</string>
+    <string name="MostDownload">الأكثر تحميلاً</string>
+    <string name="searching">جاري البحث</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/NewFirstSortButton"
+        android:icon="@drawable/star_border_black"
+        android:title="@string/NewFirst" />
+    <item
+        android:id="@+id/RandomSortButton"
+        android:icon="@drawable/ic_shuffle_black_24dp"
+        android:title="@string/Random"/>
+    <item
+        android:id="@+id/MostViewsSortButton"
+        android:icon="@drawable/ic_eye_svgrepo_com"
+        android:title="@string/MostViews"/>
+    <item
+        android:id="@+id/MostLikedSortButton"
+        android:icon="@drawable/thumb_up_black"
+        android:title="@string/MostLiked"/>
+    <item
+        android:id="@+id/MostDownloadSortButton"
+        android:icon="@drawable/file_download_blackdp"
+        android:title="@string/MostDownload"/>
+</menu>

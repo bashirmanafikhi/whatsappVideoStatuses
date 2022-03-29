@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor"
+    tools:context=".Avtivities.AboutProgrammer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutProgrammerContent"
+            android:textSize="18sp"
+            android:textColor="@color/secondaryLightColor"
+            android:gravity="center"/>
+
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/ProgrammerEmail"
+            android:textSize="18sp"
+            android:textColor="@color/mycolor5"
+            android:gravity="center"/>-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                android:text="&#xf167;  Youtube"
+                android:background="@color/primaryColor"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:onClick="gotoyoutube"
+                android:textColor="@color/tertiaryTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.bashirmanafikhi.whatsappvideostatuses.CustomControls.FWBrands
+                android:text="&#xf09a;  Facebook"
+                android:background="@color/primaryColor"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:onClick="gotofacebook"
+                android:textColor="@color/tertiaryTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <!--<Button
+                android:id="@+id/programmerWhatsapp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/whatsapp"
+                android:textColor="@color/mycolor2" />-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

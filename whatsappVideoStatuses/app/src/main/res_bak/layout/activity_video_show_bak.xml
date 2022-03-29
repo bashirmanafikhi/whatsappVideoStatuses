@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myGroup5"
+    android:orientation="vertical"
+    tools:context=".Avtivities.VideoShowActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/videoTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/myGroup3"
+                android:gravity="center"
+                android:padding="2dp"
+                android:text="Title"
+                android:textColor="@color/myGroup5"
+                android:textSize="16sp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/black_overlay">
+
+                <VideoView
+                    android:id="@+id/myVideoView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+            </FrameLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/myGroup3"
+                android:stretchColumns="0,1,2,3,4">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btnLike"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/button_background"
+                            android:padding="5dp"
+                            android:src="@drawable/favorite_border_black"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/txtLikes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="268"
+                            android:textAlignment="center"
+                            android:textSize="5pt" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/button_background"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_eye_svgrepo_com"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/txtViews"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:text="268"
+                            android:textAlignment="center"
+                            android:textSize="5pt" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/btnDownload"
+                            style="@android:style/Widget.DeviceDefault.ImageButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0"
+                            android:background="@drawable/button_background"
+                            android:padding="5dp"
+                            android:src="@drawable/file_download_blackdp"
+                            tools:ignore="VectorDrawableCompat" />
+
+                        <TextView
+                            android:id="@+id/txtDownloadsCount"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="268"
+                            android:textAlignment="center"
+                            android:textSize="5pt" />
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btnShare"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="5dp"
+                        android:src="@drawable/share_black"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <ImageButton
+                        android:id="@+id/btnWhatsapp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_whatsapp_svgrepo_com"
+                        tools:ignore="VectorDrawableCompat" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="2dp"
+                    android:text="@string/otherVideos"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="12sp" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_videos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        ads:adSize="BANNER"
+        app:adUnitId="@string/banner_video_show_id">
+
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

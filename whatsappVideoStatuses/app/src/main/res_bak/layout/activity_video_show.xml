@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myGroup5"
+    tools:context=".Avtivities.VideoShowActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/my_appbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/technique_one_toolbar"
+            style="@style/TechniqueToolbar"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/videoTitleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/myGroup3"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Title"
+                    android:textColor="@color/myGroup5"
+                    android:textSize="16sp" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/black_overlay">
+
+                    <VideoView
+                        android:id="@+id/myVideoView"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center" />
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/myGroup3"
+            android:stretchColumns="0,1,2,3,4">
+
+            <TableRow>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnLike"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="5dp"
+                        android:src="@drawable/favorite_border_black"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/txtLikes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="268"
+                        android:textAlignment="center"
+                        android:textSize="5pt" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_background"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_eye_svgrepo_com"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/txtViews"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:text="268"
+                        android:textAlignment="center"
+                        android:textSize="5pt" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/btnDownload"
+                        style="@android:style/Widget.DeviceDefault.ImageButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0"
+                        android:background="@drawable/button_background"
+                        android:padding="5dp"
+                        android:src="@drawable/file_download_blackdp"
+                        tools:ignore="VectorDrawableCompat" />
+
+                    <TextView
+                        android:id="@+id/txtDownloadsCount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="268"
+                        android:textAlignment="center"
+                        android:textSize="5pt" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_background"
+                    android:padding="5dp"
+                    android:src="@drawable/share_black"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <ImageButton
+                    android:id="@+id/btnWhatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/button_background"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_whatsapp_svgrepo_com"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+
+
+
+
+<!--
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/my_appbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:contentScrim="@color/primaryColor"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/imgToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/youtube_icon"
+                app:layout_collapseMode="parallax" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/technique_one_toolbar"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="2dp"
+                android:text="@string/otherVideos"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="12sp" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_videos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            ads:adSize="BANNER"
+            app:adUnitId="@string/banner_video_show_id">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
