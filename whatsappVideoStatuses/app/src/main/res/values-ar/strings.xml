@@ -85,5 +85,7 @@
     <string name="MainPageMainText">غرف دردشة وتعارف  والمزيد من الفيديوهات والصور والرسائل والكثير الكثير من الحالات ستجدونها في تطبيقنا الجديد ♥ حملوه من خلال الضغط على هذا الزر</string>
     <string name="MostDownload">الأكثر تحميلاً</string>
     <string name="searching">جاري البحث</string>
+    <string name="Ad">إعلان</string>
+    <string name="Great_you_rewarded">رائع لقد تمت مكافئتك، يتم الآن تحميل الفيديو</string>
 
 </resources>

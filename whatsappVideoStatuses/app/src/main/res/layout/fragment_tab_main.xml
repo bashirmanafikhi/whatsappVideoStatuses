@@ -48,15 +48,16 @@
         android:padding="15dp"
         android:stretchColumns="0,1">
 
-            <Button
-                android:id="@+id/btnMahwousVideos"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/button_shape"
-                android:text="@string/mahwous_videos_button"
-                android:textColor="@color/primaryTextColor"
-                android:layout_marginBottom="15dp"
-                android:textSize="14dp" />
+        <Button
+            android:id="@+id/btnMahwousVideos"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/mahwous_videos_button"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="14dp"
+            android:visibility="gone" />
 
 
             <!--<Button

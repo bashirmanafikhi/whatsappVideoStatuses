@@ -100,6 +100,8 @@ public class VideoShowActivity extends AppCompatActivity /*implements RewardedVi
 
             @Override
             public void onRewarded(RewardItem rewardItem) {
+                Toast.makeText(VideoShowActivity.this, R.string.Great_you_rewarded, Toast.LENGTH_LONG).show();
+
                 MyClass.downloadVid(VideoShowActivity.this, myVideo);
             }
 

@@ -70,4 +70,6 @@
     <string name="mahwous_quotes_button">Mesajlarım</string>
     <string name="MostDownload">En cok indirilen</string>
     <string name="searching">Araniyor</string>
+    <string name="Ad">Reklam</string>
+    <string name="Great_you_rewarded">Harika, video indirme basladi</string>
 </resources>

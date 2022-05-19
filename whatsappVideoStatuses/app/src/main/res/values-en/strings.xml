@@ -79,5 +79,7 @@
     <string name="mahwous_quotes_button">Mahwous Quotes</string>
     <string name="MostDownload">Most Downloads</string>
     <string name="searching">Searching..</string>
+    <string name="Ad">Ad</string>
+    <string name="Great_you_rewarded">Great, You were rewarded with video download.</string>
 
 </resources>

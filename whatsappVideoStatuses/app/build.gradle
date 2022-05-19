@@ -6,8 +6,8 @@ android {
         applicationId "com.bashirmanafikhi.whatsappvideostatuses"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 46
-        versionName "46"
+        versionCode 48
+        versionName "48"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }
@@ -33,5 +33,7 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.0'
     implementation 'com.google.firebase:firebase-analytics:17.2.2'
     implementation 'com.appsflyer:af-android-sdk:6.3.2'
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
 }
 apply plugin: 'com.google.gms.google-services'
