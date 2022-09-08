@@ -6,8 +6,8 @@ android {
         applicationId "com.bashirmanafikhi.whatsappvideostatuses"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 48
-        versionName "48"
+        versionCode 50
+        versionName "50"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
     }

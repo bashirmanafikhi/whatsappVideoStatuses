@@ -44,22 +44,22 @@
 
 
     <!--     real id -->
-<!--    <string name="banner_activity_id" translatable="false">ca-app-pub-1685177955120006/5220379199</string>-->
-<!--    <string name="banner_video_show_id" translatable="false">ca-app-pub-1685177955120006/8437104476</string>-->
-<!--    <string name="banner_show_videos_list_id" translatable="false">ca-app-pub-1685177955120006/3487295005</string>-->
-<!--    <string name="interstitial_download_video_id" translatable="false">ca-app-pub-1685177955120006/7897340545</string>-->
-<!--    <string name="between_Videos_native" translatable="false">ca-app-pub-1685177955120006/3640076896</string>-->
-<!--    <string name="rewarded_download_video" translatable="false">ca-app-pub-1685177955120006/1790074060</string>-->
-<!--    <string name="admob_app_id" translatable="false">ca-app-pub-1685177955120006~3053789974</string>-->
+    <string name="banner_activity_id" translatable="false">ca-app-pub-1685177955120006/5220379199</string>
+    <string name="banner_video_show_id" translatable="false">ca-app-pub-1685177955120006/8437104476</string>
+    <string name="banner_show_videos_list_id" translatable="false">ca-app-pub-1685177955120006/3487295005</string>
+    <string name="interstitial_download_video_id" translatable="false">ca-app-pub-1685177955120006/7897340545</string>
+    <string name="between_Videos_native" translatable="false">ca-app-pub-1685177955120006/3640076896</string>
+    <string name="rewarded_download_video" translatable="false">ca-app-pub-1685177955120006/1790074060</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-1685177955120006~3053789974</string>
 
 <!--     test id-->
-    <string name="banner_activity_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_video_show_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_show_videos_list_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_download_video_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="between_Videos_native" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
-    <string name="rewarded_download_video" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
-    <string name="admob_app_id" translatable="false">ca-app-pub-1685177955120006~3053789974</string>
+<!--    <string name="banner_activity_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="banner_video_show_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="banner_show_videos_list_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="interstitial_download_video_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="between_Videos_native" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="rewarded_download_video" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-1685177955120006~3053789974</string>-->
 
 
     <string name="tab_text_6">إسلامي</string>

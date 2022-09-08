@@ -258,8 +258,8 @@ public class TabVideos extends Fragment implements SwipeRefreshLayout.OnRefreshL
         //final ArrayList<MyVideo> videos = new ArrayList<MyVideo>();
 
         RequestQueue requestQueue;
-        final String websiteUrl = "http://www.roseshamia.com";
-        String url = websiteUrl + "/scripts30nov/Videos.php?page=" + page + "&limit=" + 10 + "&category=" + category + "&sortType=" + MainActivity.sortType;
+        final String websiteUrl = "https://www.videostatuses.com";
+        String url = websiteUrl + "/scripts/Videos.php?page=" + page + "&limit=" + 10 + "&category=" + category + "&sortType=" + MainActivity.sortType;
         requestQueue = Volley.newRequestQueue(getActivity());
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null

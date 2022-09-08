@@ -188,8 +188,8 @@ public class TabMain extends Fragment {
   void setVideosCount(){
 
 
-    final String websiteUrl = "http://www.roseshamia.com";
-    String url = websiteUrl + "/NewScripts/GetVideosCount.php";
+    final String websiteUrl = "https://www.videostatuses.com";
+    String url = websiteUrl + "/scripts/GetVideosCount.php";
 
 
     // Request a string response from the provided URL.

@@ -314,8 +314,8 @@ public class VideoShowActivity extends AppCompatActivity /*implements RewardedVi
         final ArrayList<MyVideo> videos = new ArrayList<MyVideo>();
 
         RequestQueue requestQueue;
-        final String websiteUrl = "http://www.roseshamia.com";
-        String url = websiteUrl + "/NewScripts/Videos.php?page=" + 1 + "&limit=" + 50 + "&category=" + category;
+        final String websiteUrl = "https://www.videostatuses.com";
+        String url = websiteUrl + "/scripts/Videos.php?page=" + 1 + "&limit=" + 50 + "&category=" + category;
         requestQueue = Volley.newRequestQueue(VideoShowActivity.this);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null

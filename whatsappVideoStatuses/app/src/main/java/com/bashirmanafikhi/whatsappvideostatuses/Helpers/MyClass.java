@@ -135,8 +135,8 @@ public class MyClass {
 
         Toast.makeText(context, "جاري احضار فيديو عشوائي", Toast.LENGTH_SHORT).show();
 
-        final String websiteUrl = "http://www.roseshamia.com";
-        String url = websiteUrl + "/NewScripts/GetRandomVideo.php";
+        final String websiteUrl = "https://www.videostatuses.com";
+        String url = websiteUrl + "/scripts/GetRandomVideo.php";
 
 
 
@@ -242,7 +242,7 @@ public class MyClass {
     public static void addViewsCount(final Context context, final MyVideo myVideo){
 
         RequestQueue queue = Volley.newRequestQueue(context);  // this = context
-        String url = "http://www.roseshamia.com/NewScripts/increment.php";
+        String url = "https://www.videostatuses.com/scripts/increment.php";
         StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>()
                 {
@@ -277,7 +277,7 @@ public class MyClass {
 
     public static void addDownloadsCount(final Context context, final MyVideo myVideo){
         RequestQueue queue = Volley.newRequestQueue(context);  // this = context
-        String url = "http://www.roseshamia.com/NewScripts/increment.php";
+        String url = "https://www.videostatuses.com/scripts/increment.php";
         StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>()
                 {
@@ -312,7 +312,7 @@ public class MyClass {
 
     public static void addLikesCount(final Context context, final MyVideo myVideo){
         RequestQueue queue = Volley.newRequestQueue(context);  // this = context
-        String url = "http://www.roseshamia.com/NewScripts/increment.php";
+        String url = "https://www.videostatuses.com/scripts/increment.php";
         StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>()
                 {
@@ -347,7 +347,7 @@ public class MyClass {
 
     public static void removeLikesCount(final Context context, final MyVideo myVideo){
         RequestQueue queue = Volley.newRequestQueue(context);  // this = context
-        String url = "http://www.roseshamia.com/NewScripts/decrement.php";
+        String url = "https://www.videostatuses.com/scripts/decrement.php";
         StringRequest postRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>()
                 {

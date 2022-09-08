@@ -270,8 +270,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toast.makeText(this, getString(R.string.searching), Toast.LENGTH_SHORT).show();
 
         RequestQueue requestQueue;
-        final String websiteUrl = "http://www.roseshamia.com";
-        String url = websiteUrl + "/scripts30nov/Videos.php?page=1&limit=100&sortType=" + MainActivity.sortType + "&keyword=" + keyword;
+        final String websiteUrl = "https://www.videostatuses.com";
+        String url = websiteUrl + "/scripts/Videos.php?page=1&limit=100&sortType=" + MainActivity.sortType + "&keyword=" + keyword;
         requestQueue = Volley.newRequestQueue(this);
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null

@@ -128,7 +128,7 @@ public class SplashScreen extends Activity {
 
 
         RequestQueue requestQueue;
-        final String websiteUrl = "http://www.roseshamia.com";
+        final String websiteUrl = "https://www.videostatuses.com";
         String url = websiteUrl + "/scripts/show.php";
         requestQueue = Volley.newRequestQueue(this);
 
@@ -179,8 +179,8 @@ public class SplashScreen extends Activity {
         final ArrayList<MyVideo> videos = new ArrayList<MyVideo>();
 
 
-        final String websiteUrl = "http://www.roseshamia.com";
-        String url = websiteUrl + "/NewScripts/GetVideosCount.php";
+        final String websiteUrl = "https://www.videostatuses.com";
+        String url = websiteUrl + "/scripts/GetVideosCount.php";
 
 
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, url, null
