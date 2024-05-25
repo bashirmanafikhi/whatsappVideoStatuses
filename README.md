@@ -5,7 +5,7 @@
 </p>
 
 ## Description
-**WhatsApp Video Statuses** is a  simple and user-friendly Android app designed for watching and downloading short videos for profile stories. The videos are categorized under various themes such as love, comedy, wisdom, Islamic, and more, allowing users to easily find the content that interests them. With a single click, users can download or share videos directly from the app. Developed in 2019, the app has seen significant success and user engagement.
+**WhatsApp Video Statuses** is a  simple and user-friendly Android app designed for online watching and downloading short videos for profile stories. The videos are categorized under various themes such as love, comedy, wisdom, Islamic, and more, allowing users to easily find the content that interests them. With a single click, users can download or share videos directly from the app. Developed in 2019, the app has seen significant success and user engagement.
 
 ## Features
 - **Categorized Videos**: Browse through various categories like love, comedy, wisdom, Islamic, and more.
@@ -31,12 +31,18 @@ This success is a testament to the app's quality and the value it provides to us
 
 <table align="center">
   <tr>
-    <td colspan="4" ><p align="center"><img src="images/cover.jpg" alt="Cover" width="800"/></p></td>
+    <td colspan="4" ><p align="center"><img src="images/cover.jpg" alt="Cover" width="600"/></p></td>
   </tr>
   <tr>
     <td><img src="images/screenshot-9.png" alt="Video Player" width="200"/></td>
     <td><img src="images/screenshot-10.png" alt="Side List" width="200"/></td>
     <td><img src="images/screenshot-6.png" alt="Home Screen" width="200"/></td>
     <td><img src="images/screenshot-5.png" alt="Video Categories" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="images/screenshot-3.png" width="200"/></td>
+    <td><img src="images/screenshot-4.png" width="200"/></td>
+    <td><img src="images/screenshot-7.png" width="200"/></td>
+    <td><img src="images/screenshot-8.png" width="200"/></td>
   </tr>
 </table>
